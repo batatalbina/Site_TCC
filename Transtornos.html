@@ -1,0 +1,502 @@
+<!DOCTYPE HTML>
+<html lang ="PT-BR">
+<head>
+	<meta charset = "UTF-8">
+	<title> Transtornos </title>
+	<link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+<style>
+	*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+body{
+	background: white;
+	background-image: url("Imagens/m2.png");
+	background-repeat: no-repeat;
+
+}
+nav{
+
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 999px;
+   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+   background-color: #5932be;
+   padding: 30px 60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+	
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: White;
+    font-size: 35px;
+    font-weight: 600;
+	font-family: 'Lexend', sans-serif;
+
+}
+
+nav ul{
+	font-family: Arial;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+	
+}
+
+nav li{
+    margin-left: 7px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+	background-color: none;
+	border: none;
+	cursor: pointer;
+	
+}
+
+nav li a:hover{
+    background-color: #9779ff;
+	font-size: 24.7px;
+	color: white;
+}
+
+.banner{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto .titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.texto .sub_titulo{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 600;
+
+}
+.corpo {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+	  line-height: 1.4;
+    }
+
+p {
+  font-size: 21px;
+}
+.transtorno{
+     background: white;
+     border: 1px solid #ccc;
+     border-radius: 15px;
+     width: 500px;
+     margin: 15px;
+     padding: 15px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+     text-align: center;
+     display: block;
+	 justify-content: space-evenly;
+}
+
+.lugar{
+   display:flex;
+  justify-content: space-evenly;
+}
+
+.transtorno .subtitulo{
+  margin-bottom: 10px;
+
+}
+
+.title {
+	color: #6f1fbf;
+	font: 23px;
+}
+
+<!-- cards --!>
+
+.topicos{
+	color: #89d07e;
+	text-align: center; 
+	font-size: 2rem; 
+	margin-top: 50px; 
+	margin-bottom: 30px 
+	font-weight: bold;
+}
+	
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.card {
+    background:#be98fa;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+	height: 350px
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(10px);
+}
+
+.card-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #45039c;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+	color: white;
+}
+
+.title{
+	  max-width: 1000px;
+      margin: auto;
+      padding: 5px;
+	  color: #6f1fbf;
+
+}
+
+.container{
+flex-direction: column;
+
+}
+
+
+</style>
+</head>
+
+<body>
+	<nav class="links">
+	   <div class="logo">
+
+            <a href="Index.html"> Conect Mind </a> <!-- BARRA DE NAVEGAÇÃO -->
+
+       </div>
+	<div>
+		 <ul>
+		    <li> <a href="sm.html"><strong>Saúde Mental</strong></a> </li>
+            <li> <a href="Transtornos.html"><strong>Transtornos Mentais</strong></a> </li>
+            <li> <a href="Fobias.html"><strong> Fobias </strong></a> </li>
+			<li> <a href="Tratamentos.html"><strong> Tratamento</strong></a> </li>
+			<li> <a href="App.html"><strong>Aplicativos</strong></a> </li>
+		</ul>
+	</div>
+	</nav>
+    <br><br><br><br><br><br><br><br><br><br><br><br> <!-- espaço -->
+	
+<div class="corpo">
+<br><br><br><br><br><br><br><br><br>
+		
+		<div class="title">
+		<h1>TRANSTORNOS MENTAIS</h1>
+		</div>		<!-- TÍTULO -->
+		<p>Os transtornos mentais representam um conjunto de condições que afetam o pensamento, o comportamento 
+		e as emoções do indivíduo, podendo comprometer significativamente sua qualidade de vida e funcionamento social.</p>
+		<br><br>
+		<p> Exemplos de transtornos mentais:</p>
+		<br>
+</div>
+
+  <div class="title">
+		<h1>Depressão</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Alterações químicas no cérebro (neurotransmissores como serotonina, noradrenalina e dopamina), predisposição genética, estresse, fatores psicológicos e sociais.
+</p>
+    </div>
+
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Humor deprimido, irritabilidade, ansiedade, dificuldade de concentração, insônia ou sono excessivo, alterações no apetite e peso, dores físicas sem causa médica aparente.
+</p>
+    </div>
+	
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p>Risco aumentado de outras doenças (cardiovasculares, diabetes), prejuízo na qualidade de vida, risco elevado de suicídio, problemas relacionais e financeiros</p>
+    </div>
+</section>
+
+  <div class="title">
+		<h1>Ansiedade</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Fatores genéticos, estresse, fatores psicológicos; pode ser crônica em muitos casos.</p>
+    </div>
+
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Taquicardia, falta de ar, tontura, sudorese, tensão muscular, insônia, preocupações excessivas, medo intenso, inquietação, sintomas físicos variados (náuseas, desconforto abdominal).
+</p>
+    </div>
+	
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p> Comprometimento da qualidade de vida, isolamento social, baixa autoestima, risco de desenvolver depressão, vícios, obesidade ou emagrecimento.
+</p>
+    </div>
+</section>
+
+
+	  <div class="title">
+		<h1>Bipolar</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Hereditariedade, alterações químicas cerebrais.</p>
+    </div>
+
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Alternância entre episódios de mania (euforia, energia excessiva, impulsividade) e depressão (tristeza profunda, apatia, alterações no sono e apetite).</p>
+    </div>
+	
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p>Risco elevado de suicídio, instabilidade emocional grave, prejuízo nas relações sociais e laborais.</p>
+    </div>
+</section>
+
+
+  <div class="title">
+		<h1>Transtornos Alimentares</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Interação de fatores genéticos, psicológicos, socioculturais; distorção da imagem corporal, traumas.</p>
+    </div>
+
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Anorexia (restrição alimentar severa), bulimia (compulsão alimentar seguida de purgação), compulsão alimentar (comer exageradamente sem compensação).</p>
+    </div>
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p>Desnutrição, problemas gastrointestinais, danos cardíacos, risco de óbito.</p>
+    </div>
+</section>
+
+
+  <div class="title">
+		<h1>Transtorno Obsessivo-Compulsivo (TOC)</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Fatores genéticos, alterações na comunicação cerebral, fatores psicológicos e familiares.</p>
+    </div>
+
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Obsessões (pensamentos intrusivos e angustiantes) e compulsões (rituais repetitivos para aliviar a ansiedade).</p>
+    </div>
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p>Comprometimento da vida social e profissional, risco aumentado de depressão e suicídio.</p>
+    </div>
+</section>
+
+
+  <div class="title">
+		<h1>Estresse Pós-Traumático (TEPT)</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Vivência de eventos traumáticos como violência, guerras, abusos, acidentes graves.
+</p>
+    </div>
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Reviver o trauma por meio de flashbacks e pesadelos, ansiedade, irritabilidade, hipervigilância, isolamento, sintomas físicos (taquicardia, sudorese).
+</p>
+    </div>
+	
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p>Dificuldades de relacionamento, abuso de substâncias, comprometimento da qualidade de vida.
+</p>
+    </div>
+</section>
+
+
+  <div class="title">
+		<h1>Burnout</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Estresse crônico e condições desgastantes no ambiente de trabalho.</p>
+    </div>
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Exaustão mental e física, despersonalização, baixa performance, irritabilidade, insônia e sintomas físicos como dores musculares e palpitações.</p>
+    </div>
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p>Queda na produtividade, problemas de saúde física e mental, isolamento social.</p>
+    </div>
+</section>
+
+
+  <div class="title">
+		<h1>Transtornos de Personalidade</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p> Interação entre fatores genéticos e ambientais, traumas e estresse.</p>
+    </div>
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Padrões rígidos e desadaptativos de comportamento, dificuldade de relacionamento, identidade instável, falta de empatia.</p>
+    </div>
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p>Angústia pessoal, problemas familiares e sociais, dificuldades no trabalho e estudo.</p>
+    </div>
+</section>
+
+
+  <div class="title">
+		<h1>Transtornos Psicóticos</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Condições mentais graves (esquizofrenia, bipolaridade), uso de substâncias, doenças neurológicas, fatores genéticos.</p>
+    </div>
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Perda de contato com a realidade, delírios, alucinações, confusão mental, comportamento errático.</p>
+    </div>
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p>Prejuízo severo na vida pessoal, social e profissional; necessidade de tratamento contínuo.</p>
+    </div>
+</section>
+
+
+  <div class="title">
+		<h1>Síndrome do Pânico</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Eventos estressantes, trauma, predisposição genética, alterações cerebrais.
+</p>
+    </div>
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Crises súbitas de medo intenso, falta de ar, palpitações, tontura, sensação de descontrole e morte iminente.
+</p>
+    </div>
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p> Desenvolvimento de fobias, isolamento, transtornos de ansiedade associados.</p>
+    </div>
+</section>
+
+<div class="title">
+		<h1>Esquizofrenia</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Genética, fatores neurobiológicos, estresse ambiental.</p>
+    </div>
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Delírios, alucinações, discurso desorganizado, comportamento catatônico, isolamento social.</p>
+    </div>
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p>Dificuldade grave de funcionamento social e ocupacional, necessidade de tratamento psiquiátrico contínuo.</p>
+    </div>
+</section>
+
+
+        <div class="title">
+		<h1>Demência</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Doenças neurodegenerativas (exemplo: Alzheimer), vascular, traumatismos cerebrais.</p>
+    </div>
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Declínio cognitivo progressivo, perda de memória, mudanças de personalidade, dificuldade em realizar atividades diárias.</p>
+    </div>
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p>Incapacidade funcional, dependência total, risco aumentado de complicações de saúde </p>
+    </div>
+</section>
+
+
+ <div class="title">
+		<h1>Transtorno do Espectro Autista (TEA)</h1>
+		</div>	
+<section class="cards">
+    <div class="card causas" id="causas">
+    <h3>Causas</h3>
+    <p>Fatores genéticos e neurobiológicos.</p>
+    </div>
+    <div class="card sintomas" id="sintomas">
+    <h3>Sintomas</h3>
+    <p>Dificuldades na comunicação e interação social, comportamentos repetitivos e interesses restritos.</p>
+    </div>
+	<div class="card consequencias" id="consequencias">
+    <h3>Consequências</h3>
+    <p> Impacto variável no desenvolvimento e autonomia, necessidade de intervenções especializadas. </p>
+    </div>
+</section>
+
+</body>
+</html>
